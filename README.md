@@ -2,7 +2,7 @@
 
 Counterfeit Plate Spotter is an innovative system designed to detect and identify fake number plates used on vehicles. Leveraging advanced image processing and recognition techniques, this project aims to enhance public safety and law enforcement efforts by accurately differentiating between genuine and counterfeit plates.
 
-## Features
+## Features(working on them )
 
 - **Image Acquisition**: Captures images containing license plates for processing.
 - **License Plate Extraction**: Identifies and extracts the region containing the license plate.
