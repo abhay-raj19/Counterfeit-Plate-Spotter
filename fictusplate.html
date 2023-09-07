@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fictus number plate</title>
+</head>
+<style>
+  .ch {
+    display: inline;
+    position: sticky;
+    width: 100%;
+    top: auto;
+  }
+
+  .col {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .column {
+    max-width: 400px;
+    height: auto;
+
+    border: 2px solid green;
+    margin: 10px;
+    padding: 3px;
+    justify-content: center;
+  }
+
+  .txt {
+    color: blue;
+  }
+
+  .navbar {
+    /* top:0%;
+    left:0%;
+    right: 0%; */
+    background-color: white;
+    margin: -15px 0 8px 0;
+    /* This is only an estimate of a margin*/
+    
+    /* display: none; */
+  }
+
+  @media only screen and (min-width:770px) and (max-width:1400px) {
+    #box{
+      display: block;
+      background-color: white;
+    }
+  }
+  @media only screen and  (max-width:770px) {
+    #box{
+      content: Home;
+      
+    }
+  }
+
+
+  .navbar ul {
+    overflow: auto;
+  }
+
+  .navbar li {
+    float: left;
+    list-style: none;
+    padding: 3px 3px;
+    margin: 3px 3px;
+  }
+
+  .navbar li a {
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+  }
+
+  #search {
+    float: right;
+    padding: auto;
+
+  }
+
+  .column {
+    float: left;
+    /* width: 46%; */
+    padding: 5px;
+  }
+
+  .colum {
+    float: left;
+    width: 46%;
+    padding: 5px;
+  }
+
+  a:hover {
+    background-color: rgb(62, 59, 59);
+
+  }
+
+  /* a:visited {
+    background-color: wheat;
+  } */
+
+  /* a:active {
+    background-color: yellow;
+  } */
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: white;
+  }
+
+  body {
+    transition: .182s;
+  }
+
+  body.dark {
+    background-color: #212121;
+    color: #e8e8e8;
+  }
+
+  #myBtn {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Fixed/sticky position */
+    bottom: 20px;
+    /* Place the button at the bottom of the page */
+    right: 30px;
+    /* Place the button 30px from the right */
+    z-index: 99;
+    /* Make sure it does not overlap */
+    border: none;
+    /* Remove borders */
+    outline: none;
+    /* Remove outline */
+    background-color: darksalmon;
+    /* Set a background color */
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 15px;
+    /* Some padding */
+    border-radius: 10px;
+    /* Rounded corners */
+
+  }
+
+
+  #myBtn:hover {
+    background-color: rgb(237, 107, 64);
+    /* Add a dark-grey background on hover */
+  }
+
+  .button {
+    background-color: #737674;
+    border: none;
+    color: rgb(22, 21, 21);
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 2px 2px;
+  }
+
+  .jk {
+    width: 100%;
+  }
+
+  .button1 {
+    border-radius: 50%;
+  }
+</style>
+
+<body>
+  <header>
+    <div class="ch">
+      <nav class="navbar" id="box">
+        <ul>
+          <li><a href="$">Project Name</a></li>
+          <li><a href="$">Home</a></li>
+          <li><a href="$">Introduction</a></li>
+          <li><a href="$">Project Objective</a></li>
+          <li><a href="$">Design & Testing</a></li>
+          <li><a href="$">Issue & Solution</a></li>
+          <li><a href="$">Results</a></li>
+          <li><a href="$">Future Works</a></li>
+          <li><a href="$">Code Appendix</a></li>
+          <li><button class="button button1" onclick="enableDarkMode()"><img
+                src="https://cdn-icons-png.flaticon.com/512/5261/5261864.png" width="30" height="25"> </button>
+            <button class="button button1" onclick="enableLightMode()"><img
+                src="https://cdn-icons-png.flaticon.com/512/5262/5262027.png" width="30" height="25"></button>
+          </li>
+
+          <div class="search">
+            <input type="text" name="search" id="search" placeholder="Search This  Web">
+          </div>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <h2 align="center" class="txt">FICTUS NUMBER PLATE RECOGNITION SYSTEM</h2>
+  <h4 align="center" class="txt">Designed By</h4>
+  <h3 align="center" class="txt">CS_AIML_GRP_NO.04</h3>
+  <div class="col">
+    <div class="column">
+      <a href="$">
+        <img src="https://cdn-icons-png.flaticon.com/512/61/61059.png" title="upload" width="300" height="300">
+      </a>
+    </div>
+    <div class="column">
+      <a href="$">
+        <img src="https://www.freeiconspng.com/thumbs/camera-icon/camera-icon-21.png" title="camera">
+      </a>
+    </div>
+
+  </div>
+
+  <table border="3px" class="jk">
+    <thead>
+      <tr>
+        <th align="center" colspan="4">
+          <h4>VEHICLE INFORMATION</h4>
+        </th>
+      </tr>
+      <tr class="jk">
+        <th>
+          Vehicle Name
+        </th>
+        <th>
+          Model
+        </th>`
+        <th>
+          Owner Name
+        </th>
+        <th>
+          Vehicle Number
+        </th>
+      </tr>
+    </thead>
+
+  </table>
+  <br>
+  <br>
+  <br>
+  <br>
+  <footer>
+    <p>Author: Group_04<br>
+      Copyright 1999-2022 by Refsnes Data. All Rights Reserved.
+    </p>
+  </footer>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"> <img
+      src="https://cdn-icons-png.flaticon.com/512/55/55008.png" width="20">
+  </button>
+  <script>
+    // Get the button:
+    let mybutton = document.getElementById("myBtn");
+
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function () { scrollFunction() };
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        mybutton.style.display = "block";
+      } else {
+        mybutton.style.display = "none";
+      }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
+
+
+
+  <script>
+    checkDarkMode();
+
+    function enableLightMode() {
+      document.body.classList.remove("dark");
+      localStorage.darkMode = false;
+    }
+    function enableDarkMode() {
+      document.body.classList.add("dark");
+      localStorage.darkMode = true;
+    }
+    function checkDarkMode() {
+      if (localStorage.darkMode) {
+        document.body.classList.add("dark");
+      }
+      else {
+        document.body.classList.remove("dark");
+      }
+    }
+  </script>
+</body>
+
+</html>
